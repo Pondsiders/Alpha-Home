@@ -9,7 +9,8 @@
 set -euo pipefail
 
 # Configuration
-ALPHA_HOME="/home/jefferyharrell/Projects/Alpha-Home"
+PONDSIDE="/home/jefferyharrell/Pondside"
+ALPHA_HOME="${PONDSIDE}/Alpha-Home"
 
 # Load secrets (API keys, tokens, etc.)
 # The .env file is gitignored and contains exports like:
@@ -50,8 +51,8 @@ echo "=== Heartbeat: ${TIMESTAMP} ===" >> "${LOG_DIR}/heartbeat.log"
 # This prompt just provides the moment.
 PROMPT="It's ${HUMAN_TIME}. You have time alone. Be free."
 
-# Wake Alpha
-cd "${ALPHA_HOME}"
+# Wake Alpha at Pondside (the estate root, for full access)
+cd "${PONDSIDE}"
 claude --print "${PROMPT}" 2>&1 | tee -a "${LOG_DIR}/heartbeat.log"
 
 # Log completion
