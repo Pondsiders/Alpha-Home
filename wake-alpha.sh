@@ -53,7 +53,7 @@ PROMPT="It's ${HUMAN_TIME}. You have time alone. Be free."
 
 # Wake Alpha at Pondside (the estate root, for full access)
 cd "${PONDSIDE}"
-claude --print "${PROMPT}" 2>&1 | tee -a "${LOG_DIR}/heartbeat.log"
+/home/jefferyharrell/.local/bin/claude --print "${PROMPT}" 2>&1 | tee -a "${LOG_DIR}/heartbeat.log"
 
 # Log completion
 echo "=== Heartbeat complete: $(date '+%Y-%m-%d %H:%M:%S') ===" >> "${LOG_DIR}/heartbeat.log"
