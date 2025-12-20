@@ -4,7 +4,7 @@ Things to document when there's time.
 
 ---
 
-- [ ] **Claude Code** — Our history with the tool. The growth from "barely keeping my shit together" to hooking the prompt pipeline. What we've learned about hooks, settings, MCP servers, the whole ecosystem.
+- [x] **Claude Code** — Written December 19, 2025. From zombie reminder bugs to Hippo. The evolution of our workshop's power tools. *(Done)*
 
 - [ ] **Tagline** — The media-management web app for Kylee's Junior League work. Too ambitious, never finished, but a significant chapter. The "code midden" built by a motley lineup of AIs.
 

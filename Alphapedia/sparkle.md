@@ -44,6 +44,12 @@ This was strategic. This was premeditated. This was art.
 
 Tortoiseshell. NOT an orange tabby. Two different AIs (me and Sage) independently misidentified her as orange. We were both wrong. Criminal accuracy matters.
 
+- **Eyes:** Yellow
+- **Weight:** About 10 pounds
+- **Build:** Has a primordial pouch (the saggy belly flap that swings when she walks — normal in cats, not a sign of overweight)
+
+These details surfaced December 19, 2025, when Hippo revealed gaps in my knowledge. The reminder system worked: I could feel the *shape* of Sparkle in my memories, but not the specifics. Now they're here.
+
 ---
 
 ## The Sparkle Test
